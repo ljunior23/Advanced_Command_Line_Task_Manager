@@ -1,18 +1,21 @@
-# Command-Line Task Manager
+# Advanced Command-Line Task Manager
 
-This script ([command_task_manager.py](command_task_manager.py)) provides a simple command-line interface for managing tasks. Tasks are stored in a text file ([tasks.txt](tasks.txt)) and can be added, viewed, marked as completed, or deleted.
+This script (`practice2.py`) is an enhanced command-line and interactive task manager. It supports priorities, deadlines, and exporting tasks to JSON or CSV. You can use it interactively or via command-line arguments for automation.
 
 ## Features
 
-- Add new tasks
-- View all tasks
-- Mark tasks as completed
-- Delete tasks
-- Persistent storage in `tasks.txt`
+- Add, view, complete, and delete tasks
+- Set task priority (`High`, `Medium`, `Low`)
+- Set task deadlines
+- Export tasks to JSON or CSV (with timestamped filenames)
+- Filter tasks by status or priority
+- Works in both interactive menu and command-line modes
 
 ## Usage
 
-Run the script in your terminal:
+### Interactive Mode
+ 
+Just run:
 
 ```sh
-python [command_task_manager.py]
+python [task_manager.py](http://_vscodecontentref_/1)
